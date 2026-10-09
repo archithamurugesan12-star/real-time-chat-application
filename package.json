@@ -1,0 +1,15 @@
+{
+  "name": "connecthub",
+  "version": "1.0.0",
+  "description": "CONNECTHUB – Production-Quality Real-Time Chat Application",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "test:backend": "cd backend && npm test",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": ["mern", "chat", "realtime", "socket.io", "react", "express", "mongodb"],
+  "author": "ConnectHub Team",
+  "license": "MIT"
+}
